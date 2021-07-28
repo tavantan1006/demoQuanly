@@ -1,0 +1,79 @@
+#container {
+    border: 1px solid;
+    width: 750px;
+    height: 200px;
+    backgroundn: blue;
+}
+
+#headerB {
+    background-color: chocolate;
+    padding: 20px;
+}
+
+#bodyB {
+    padding: 5px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#bodyBleft {
+    background-color: lightblue;
+    width: 39%;
+    float: left;
+    padding: 2px;
+    overflow: auto;
+    height: 150px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#bodyBright {
+    background-color: lightblue;
+    width: 59%;
+    float: right;
+    padding: 2px;
+}
+#headerbody{
+    margin-bottom: 20px;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#left {
+    float: left;
+    width: 59%;
+}
+#left_menu {
+    float: left;
+    width: 59%;
+    margin-bottom: 5px;
+}
+#left_menu div {
+    margin-bottom: 5px;
+}
+#left_menu div select {
+    width: 100%;
+}
+/*++++++++++++++++++*/
+#right_menu {
+    float: right;
+    width: 39%;
+    margin-bottom: 5px;
+}
+#right_menu button {
+    color: blue;
+
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#right {
+    float: right;
+    width: 39%;
+}
+#right input {
+    width: 25%;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.btn-table {
+    background: aqua;
+    width: 30%;
+    height: 50px;
+    margin: 2px;
+    vertical-align: center;
+}
