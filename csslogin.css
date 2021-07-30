@@ -1,0 +1,43 @@
+.login {
+    background-image: url("img/tai-background-anh-sang-dep-nhat-390x260.jpg");
+    width: 100%;
+    height: 93%;
+    position: relative;
+}
+.style_login {
+    background: rgba(4, 190, 236, 0.53);
+    border: 1px solid;
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    width: 27%;
+    height: 42%;
+}
+.style_login div {
+    font-family: sans-serif;
+    margin: 10px;
+    font-size: 15px;
+}
+.input-login{
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 3px;
+}
+.input-login label{
+    font-size: 17px;
+}
+.input-login input{
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.btn-login button{
+    font-weight: bold;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid #04e8e8;
+    background: #e8435b;
+}

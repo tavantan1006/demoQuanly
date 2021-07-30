@@ -1,13 +1,36 @@
-#container {
-    border: 1px solid;
+body{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+#bodystyle{
+    position: fixed;
+    top: 10%;
+    left: 25%;
     width: 750px;
-    height: 200px;
-    backgroundn: blue;
+    padding: 10px;
+    background: #2b180a;
+}
+#bodystyle h2 {
+    color: #e8c3c3;
+    text-align: center;
+}
+#bodystyleLogin{
+    width: 750px;
+    padding: 10px;
+    background: #e07d39;
+}
+#bodystyleLogin h2{
+    text-align: center;
+}
+#container {
+    background: white;
+    width: 750px;
+    height: 500px;
 }
 
 #headerB {
-    background-color: chocolate;
-    padding: 20px;
+    background-color: rgba(222, 168, 168, 0.27);
+    padding: 5px;
 }
 
 #bodyB {
@@ -16,23 +39,47 @@
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 #bodyBleft {
-    background-color: lightblue;
+    background-color: white;
     width: 39%;
     float: left;
     padding: 2px;
     overflow: auto;
-    height: 150px;
+    height: 420px;
 }
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 #bodyBright {
-    background-color: lightblue;
+    background-color: white;
     width: 59%;
     float: right;
     padding: 2px;
 }
 #headerbody{
+    float: left;
+    width: 100%;
     margin-bottom: 20px;
+}
+#mainbody{
+    border: 1px solid chocolate;
+    float: left;
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+}
+#footerbody {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+table{
+    width: 100%;
+}
+th,tr,td {
+    text-align: center;
+    padding: 10px;
+}
+th {
+    background: #e07d39;
 }
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 #left {
